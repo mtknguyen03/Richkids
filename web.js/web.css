@@ -1,0 +1,19 @@
+.heading{
+    text-transform: uppercase;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    font-size: 8mm;
+}
+
+.imagine{
+    width: 250px;
+    height:200px;
+    display: flex;
+    margin: 10px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
