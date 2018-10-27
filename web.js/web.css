@@ -4,6 +4,34 @@
     text-align: center;
     color: black;
     font-size: 8mm;
+    font-family: 'Mali', cursive;
+    border-style: double;
+    border: 2px solid ;
+}
+#typed{
+    white-space: pre;
+    display: none;
+    animation: blink 0.7s infinite;
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    
+}
+.paragraph{
+    font-size: 5mm;
+    font-family: 'Niramit', sans-serif;
+    padding-left: 20px;
+}
+.note{
+    font-size: 5mm;
+    text-transform: capitalize;
+}
+.background{
+    background: linear-gradient(#66ccff 0%, #ffffff 60%);
+    height: 400px;
 }
 
 .imagine{
@@ -12,7 +40,6 @@
     display: flex;
     margin: 10px;
 }
-
 .flex{
     display: flex;
     justify-content: space-around;
