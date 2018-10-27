@@ -11,7 +11,6 @@ var buttonClick9 = document.getElementsByClassName("9");
 var buttonClick10 = document.getElementsByClassName("10");
 var buttonClick11 = document.getElementsByClassName("11");
 var buttonClick12 = document.getElementsByClassName("12");
-var buttonClick13 = document.getElementsByClassName("13");
 
 var message1 = document.getElementsByClassName("message1")
 var message2 = document.getElementsByClassName("message2")
@@ -19,7 +18,6 @@ var message3 = document.getElementsByClassName("message3")
 var message4 = document.getElementsByClassName("message4")
 var message5 = document.getElementsByClassName("message5")
 var message6 = document.getElementsByClassName("message6")
-var message7 = document.getElementsByClassName("message7")
 
 var image1 = document.getElementsByClassName("imagine1")
 var image2 = document.getElementsByClassName("imagine2")
@@ -107,18 +105,12 @@ buttonClick11[0].addEventListener("click", () => {
     buttonClick8[0].disabled = true;
 })
 buttonClick12[0].addEventListener("click", () => {
-    console.log("Stupid");
+        console.log("Stupid");
     message6[0].textContent = "kiểm tra mắt đi";
     buttonClick9[0].disabled = true;
 })
-
-buttonClick13[0].addEventListener("click", () => {
-    console.log("Ez");
-    message7[0].textContent = "12 - Tất cả mọi người, kể cả người bị mù màu toàn bộ đều có thể nhìn thấy số 12.";
-    buttonClick10[0].disabled = true;
 
 
 
 
 var messages = document.querySelectorAll(".message");
-
