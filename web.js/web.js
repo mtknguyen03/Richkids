@@ -114,8 +114,7 @@ buttonClick12[0].addEventListener("click", () => {
 
 buttonClick13[0].addEventListener("click", () => {
     console.log("Ez");
-    message7[0].textContent = "12 - Tất cả mọi người, kể cả người bị mù màu toàn bộ đều có thể nhìn thấy số 12.
-    ";
+    message7[0].textContent = "12 - Tất cả mọi người, kể cả người bị mù màu toàn bộ đều có thể nhìn thấy số 12.";
     buttonClick10[0].disabled = true;
 
 
