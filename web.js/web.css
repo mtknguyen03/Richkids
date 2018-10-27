@@ -87,7 +87,7 @@ svg {
     width: 130px;
     height: 40px;
     line-height: 40px;
-    margin-left: 900px;
+    margin-left: 880px;
     position: relative;
     overflow: hidden;
     border: 2px solid crimson;
@@ -138,4 +138,15 @@ svg {
 .round .button:nth-child(3):hover:before {
     top: -30px;
     left: -30px;
+}
+.video{
+    text-align: center;
+    vertical-align: middle;
+}
+.text{
+    text-align: center;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    font-size: 5mm;
+    font-family: 'Montserrat', sans-serif;
 }
